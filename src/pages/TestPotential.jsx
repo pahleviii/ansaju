@@ -48,7 +48,7 @@ function TestPotential() {
 
     try {
       setLoading(true);
-      const res = await fetch("https://ansaju-backend-production-dc20.up.railway.app/predict", {
+      const res = await fetch("https://ansaju-backend-production.up.railway.app/predict", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify(answers)
